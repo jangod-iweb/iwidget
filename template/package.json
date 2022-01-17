@@ -1,0 +1,13 @@
+{
+  "name": "{{ name }}",
+  "version": "{{ version }}",
+  "acthor": "{{ author }}",
+  "description": "{{ description }}",
+  "private": true,
+  "scripts": {
+    "export": "iweb-cli-service build",
+    "publish": "iweb-cli-service publish"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
