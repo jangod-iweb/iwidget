@@ -1,0 +1,29 @@
+{
+    "prompts": {
+      "name": {
+        "type": "string",
+        "required": true,
+        "message": "项目名称",
+        "default": "iwidget"
+      },
+      "version": {
+        "type": "string",
+        "required": true,
+        "message": "你项目的版本号",
+        "default": "1.0.0"
+      },
+      "author": {
+        "type": "string",
+        "required": true,
+        "message": "项目作者",
+        "default": ""
+      },
+      "description": {
+        "type": "string",
+        "required": false,
+        "message": "给你的项目加点描述",
+        "default": "远程组件库"
+      }
+    },
+    "completeMessage": "初始化代码后可查看[README.md]文件参考初始化示例代码，熟悉远程组件开发与使用的规范。"
+}
